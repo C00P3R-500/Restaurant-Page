@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: mediumturquoise;
+}
+
+* {
+    border: 1px solid black;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+}
