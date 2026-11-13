@@ -10,18 +10,39 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 40px;
+    align-items: flex-end;
+    background-color: rgb(83, 83, 187);
+    maxheight: 40px;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
+.btns {
+    height: 40px;
+    width: 100px;
+    margin: 0;
+    border-radius: 5px 5px 0px 0px;
+    border: transparent;
+    font-weight: bolder;
+    background-color: rgb(83, 83, 187);
+}
+
+.btn-clicked {
+    height: 45px;
+    width: 100px;
+    margin: 0;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 900;
+    border: 3px solid rgb(244, 241, 234);
+}
 
 
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    margin-top: 10px;
 }
 
 #content {
@@ -49,6 +70,7 @@ body {
 }
 
 .info {
+    font-size: 20px;
     text-align: center;
     color: rgb(0, 69, 172);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -63,4 +85,34 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+.hrs {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 69, 172);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item-container {
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    height: 250px;
+    padding: 5px;
+    align-items: center;
+}
+
+.food-img {
+    height: 150px;
+    width: 150px;
+}
+
+.food-descrip {
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    color: rgb(0, 69, 172);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
