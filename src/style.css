@@ -12,7 +12,6 @@ body {
     justify-content: center;
     align-items: flex-end;
     background-color: rgb(83, 83, 187);
-    maxheight: 40px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -35,6 +34,7 @@ body {
     border-radius: 5px 5px 0px 0px;
     font-weight: 900;
     border: 3px solid rgb(244, 241, 234);
+    background-color: rgb(244, 241, 234);
 }
 
 
